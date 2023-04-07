@@ -31,7 +31,7 @@ nav li a {
   color: black;
 }
 .contenu {
-  background-image: url("images/batiment.jpg");
+/*   background-image: url("images/batiment.jpg"); */
   display: flex;
   height: 500px;
   justify-content: center;
