@@ -1,0 +1,432 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+}
+/* styles pour le header */
+.we {
+  font-size: 30px;
+  position: relative;
+  top: 30px;
+}
+nav {
+  text-align: center;
+  font-size: 30px;
+}
+nav ul {
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline-block;
+}
+nav li a {
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+}
+.home {
+  text-decoration: underline;
+  color: gray;
+}
+.about,
+.contact {
+  color: black;
+}
+/* style pour les grid d'image */
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  justify-content: space-around;
+  margin-top: 70px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+  justify-content: space-around;
+  margin-right: 50px;
+}
+
+.col {
+  flex-basis: 24%;
+  margin-bottom: 0;
+}
+
+img {
+  width: 237px;
+  display: block;
+  height: 316px;
+  margin: auto;
+}
+.gallery {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 20px 0;
+}
+hr {
+  width: 800px;
+  margin-left: 300px;
+  margin-top: 50px;
+}
+h1 {
+  font-size: 8em;
+  margin: 0;
+}
+/* pour les deux premier paragraphe */
+.two-columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  justify-content: center;
+  margin-top: 100px;
+  padding: auto;
+}
+h2 {
+  text-align: center;
+  font-size: 35px;
+}
+.column {
+  width: calc(50% - 10px);
+  padding: 0 5px;
+  box-sizing: border-box;
+}
+
+.para {
+  font-size: 1rem;
+  line-height: 2;
+  margin: 20px 0 0;
+  word-wrap: break-word;
+  position: relative;
+  text-align: center;
+}
+/* pour la section comportant une go en cecle */
+.sat {
+  background-color: #f2f2f2;
+  width: 100%;
+  height: 664px;
+}
+
+.circle-container {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  top: 100px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 7;
+}
+
+.circle {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 20px solid rgb(255, 248, 248);
+  overflow: hidden;
+}
+.go {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  height: 750px;
+  object-fit: cover;
+}
+/* pour les rectangles */
+
+.contai {
+  position: relative;
+  width: 880px;
+  height: 467px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: -100px;
+  z-index: 2;
+}
+.free {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.ag {
+  font-size: 15px;
+}
+p {
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+button {
+  background-color: #ff8a05;
+  padding: 20px;
+  height: 50px;
+  border-radius: 20px;
+  color: #000000;
+  border: none;
+  position: relative;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  top: 50px;
+}
+#orange {
+  background-color: #ff8a05;
+  width: 100%;
+  height: 600px;
+}
+#range {
+  position: relative;
+  top: 23px;
+  font-size: 1.3em;
+  line-height: 1.6;
+  text-align: center;
+  color: white;
+}
+/* pour les trois photos */
+.square {
+  width: 60px;
+  height: 60px;
+  background-color: #ff8a05;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 4;
+  right: 1100px;
+  top: 600px;
+}
+
+.square span {
+  font-size: 48px;
+  color: white;
+}
+.square1 {
+  width: 60px;
+  height: 60px;
+  background-color: #ff8a05;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 4;
+  left: 50px;
+  top: 600px;
+  transform: rotate(180deg);
+}
+.square1 span {
+  font-size: 48px;
+  color: white;
+}
+.amis {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  justify-content: center;
+  position: relative;
+  top: 40px;
+}
+.amo {
+  margin-right: 20px;
+}
+#adam {
+  text-align: center;
+  margin-top: 20px;
+}
+.saltoo {
+  position: relative;
+  display: flex;
+  height: 627px;
+  width: 100%;
+  top: 350px;
+}
+.sign {
+  color: white;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  font-size: 35px;
+  align-self: center;
+  padding-top: 50px;
+}
+.signh {
+  font-size: 40px;
+}
+.mage {
+  width: 180px;
+  height: 180px;
+}
+/* POUR LES QUATRES IMAGES */
+.containee {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  justify-content: space-around;
+  position: relative;
+  top: 250px;
+}
+.columne {
+  width: 48%;
+}
+.columne-right {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.ordi {
+  width: 320px;
+  height: 306px;
+  display: flex;
+  position: relative;
+  right: 60px;
+}
+.feuille {
+  display: flex;
+  position: relative;
+  width: 497px;
+  height: 286px;
+  right: 180px;
+  top: 5px;
+}
+.assis {
+  width: 386px;
+  height: 241px;
+  position: relative;
+  top: 20px;
+  left: 300px;
+}
+.age {
+  width: 386px;
+  height: 481px;
+  position: relative;
+  top: 40px;
+  left: 50px;
+}
+#ject {
+  position: relative;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: 6rem;
+  font-weight: 700;
+  right: 400px;
+  top: 160px;
+}
+/* pour les logos */
+.leslogo {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  top: 350px;
+}
+.leslogo img {
+  width: 120px;
+  height: 120px;
+}
+#till {
+  width: 850px;
+  font-weight: 400;
+  margin: 60px auto;
+  position: relative;
+  top: 400px;
+}
+#tillee {
+  font-size: 1.5rem;
+  font-family: Montserrat, sans-serif !important;
+}
+/* pour la deuxieme section orange */
+#death {
+  background-color: #ff8a05;
+  width: 100%;
+  height: 702px;
+  position: relative;
+  top: 500px;
+}
+/* formulaire */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  width: 500px;
+  height: 500px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  position: relative;
+  left: 425px;
+  top: 90px;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+input,
+textarea {
+  width: 480px;
+  padding: 15px;
+  border: 1px solid #e5e5e5;
+  border-radius: 20px;
+  background-color: #e5e5e5;
+}
+button {
+  background-color: #ff8a05;
+  color: white;
+  border: none;
+  width: 400px;
+  border-radius: 20px;
+  padding: 10px 10px;
+  cursor: pointer;
+  text-align: center;
+  position: relative;
+  left: 50px;
+}
+button:hover {
+  background-color: rgb(222, 222, 226);
+}
+#ook {
+  color: white;
+  position: relative;
+  top: 80px;
+}
+/* pied de la page */
+#footer {
+  background-color: #333333;
+  width: 100%;
+  height: 250px;
+  position: relative;
+  top: 500px;
+}
+footer p {
+  color: white;
+  position: relative;
+  top: 50px;
+}
